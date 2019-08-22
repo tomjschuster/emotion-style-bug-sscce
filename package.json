@@ -1,0 +1,30 @@
+{
+  "name": "emotion-style-bug-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/.bin/webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-emotion": "^10.0.14",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
+  },
+  "browserslist": [
+    "> 0.1%",
+    "not dead"
+  ]
+}
